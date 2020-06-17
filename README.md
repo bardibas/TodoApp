@@ -20,14 +20,31 @@ It is the todo app with MVVM architecture where room data is used for the EDIT, 
 
 - https://github.com/bardibas/TodoApp.git
 ### **
+**Steps to follow**
+my application
+  -mvvm_model
+    -Todo.java
+     -TodoDao.java
+      -TodoDatabase.java
+       -DatConversion.java
+       -TodoRespository.java
+       -TodoViewModel.Java
+      **-tasks**
+       -TodoAdapter.java
+        -AddEditTodoActivity.java
+         -MainActivity.java
 
 - [ ] Guideline Using the application
 
 **
 Add Todo: Click on the floating button and add list
+
 Add Todo Item: Fill the required fields and click on save
+
 Edit Todo: Click on the Todo Item and edit the field then save
+
 Delete List: Swipe either left or right to delete 1 item and click on delete all to delete all items
+
 
 
 
