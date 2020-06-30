@@ -36,6 +36,15 @@ my application
 
 - [ ] Guideline Using the application
 
+# Plugins and Dependencies
+| Dependencies | Implements |
+| --- | --- |
+| Card View |  implementation "androidx.cardview:cardview:1.0.0" |
+| View Model | implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycle_version"|
+|Live Data |  implementation "androidx.lifecycle:lifecycle-livedata:$lifecycle_version" |
+|Annonation Processor |  annotationProcessor "androidx.lifecycle:lifecycle-compiler:$lifecycle_version" |
+| Room | Database | implementation "androidx.room:room-runtime:$room_version" |
+| Life Cycle |  implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0' 
 **
 Add Todo: Click on the floating button and add list
 
